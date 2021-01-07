@@ -1,0 +1,44 @@
+package variaveis;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*String é um tipo de referencia
+		 * 
+		 * 
+		 * Date = é um tipo de referencia
+		 * 
+		 * 
+		 * String é uma classe, dentro da classe temos métodos
+		 * 
+		 * Classe JOPTION PANE contem dicersos metodos
+		 * 
+		 * tal qual string
+		 * 
+		 * 
+		 * 
+		 * System.out.println();
+		
+		 * 
+		 * 
+		 * 
+		 * 
+		 */
+
+		
+		String email = "rc_peres@mail.com";		
+		System.out.println("Original" + email);
+		System.out.println("Maio " + email.toUpperCase());
+		System.out.println("Minu " + email.toLowerCase());
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

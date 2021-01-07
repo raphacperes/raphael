@@ -1,0 +1,54 @@
+package ListaExercicios;
+
+import javax.swing.JOptionPane;
+
+public class lista1_Exerc1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+
+ * 1. Um hotel cobra R$ 80,00 a diária e mais uma taxa de serviços. 
+A taxa de serviços é de: 
+•	R$ 5,50 por diária, se o número de diárias for maior que 15; 
+•	R$ 6,00 por diária, se o número de diárias for igual a 15; 
+•	R$ 8,00 por diária, se o número de diárias for menor que 15.
+Monte uma aplicação que apresente a conta do cliente.
+
+ * 
+ */
+		
+		
+//		String materia = JOptionPane.showInputDialog("Materia");
+	
+		float diaria = Float.parseFloat(JOptionPane.showInputDialog("diarias"));
+		float totalDiaria = 80;
+		float taxa = 0;
+				
+		if ( diaria > 15 ) {
+
+			taxa = (float) 5.50;
+			totalDiaria = totalDiaria + taxa ;
+			
+		} else 	if (diaria < 15 ) {
+
+			taxa = (float) 8.00;
+			totalDiaria = totalDiaria + taxa ;
+			
+			} else  {
+
+				taxa = (float) 6.00;
+				totalDiaria = totalDiaria + taxa ;
+			
+			}							
+
+
+			System.out.println("Diarias: " + diaria);
+
+			System.out.println("taxa: " + taxa);
+
+			System.out.println("Total: " + totalDiaria);
+
+
+	}
+}

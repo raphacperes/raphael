@@ -1,0 +1,43 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposPrimitivos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * boolean true / false
+		 * 
+		 * 
+		 * 
+		 * nota semestral 1
+		 * nota semestral 2
+		 * falta
+		 * disciplina	 
+		 * media
+		 * 
+		 * 
+		 * */
+		
+		
+		String disciplina = JOptionPane.showInputDialog("Digite Disciplina: ");
+		double nota1 = Double.parseDouble(JOptionPane.showInputDialog("nota1 "));
+		double nota2 = Double.parseDouble(JOptionPane.showInputDialog("nota2 "));
+		double falta = Double.parseDouble(JOptionPane.showInputDialog("falta "));
+		double media = Double.parseDouble(JOptionPane.showInputDialog("media "));
+		//double impostoProduto = Double.parseDouble(JOptionPane.showInputDialog("impostoProduto "));
+		
+		media = (nota1 + nota2) / 2;
+		
+		
+		System.out.println("disciplina: " + disciplina);
+		System.out.println("nota1: " + nota1);
+		System.out.println("nota2: " + nota2);
+		System.out.println("falta: " + falta);
+		System.out.println("media: " + media);
+		
+		
+	}
+}

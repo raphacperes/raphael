@@ -1,0 +1,75 @@
+package While;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile2 {
+
+	public static void main(String[] args) {
+		/* 
+
+
+		 *
+		 *
+		 *
+		 *
+		 *
+		 *
+		 *
+		 */
+
+		do {
+			int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 1 Digite o valor : "));
+			int tentativa1  = Integer.parseInt(JOptionPane.showInputDialog("JOgador 2 - tente adivinhar qual o numero :));
+			JOptionPane.showMessageDialog(null,"Resultado : " + (valor1 + valor2));
+		
+		}while (valor1 =! tentativa1) {
+				tentativa1 = JOptionPane.showInputDialog("Voce errou ! Tente novamente");
+	
+	}
+}
+
+
+
+
+/* 
+
+		//}while (JOptionPane.showConfirmDialog(null, "Deseja Continuar ? ", "Pergu nta", JOptionPane.YES_NO_OPTION)==0);
+		String nome = JOptionPane.showInputDialog("Digite o Nome");
+
+		while (nome.length() <=5 || nome.length() >= 20 || nome.contains(" ")==false) {
+			nome = JOptionPane.showInputDialog("Inválido. Digite o nome e Sobrenome");
+
+		}
+
+		Short idade = Short.parseShort(JOptionPane.showInputDialog("Digite a idade").toLowerCase());
+
+		while (idade <= 18 || idade >= 80) {
+			idade = Short.parseShort(JOptionPane.showInputDialog("Inválido. A idade deve estar entre 18 e 80"));
+
+		}
+
+		System.out.println("Nome " + nome);
+		System.out.println("idade " + idade);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+} */

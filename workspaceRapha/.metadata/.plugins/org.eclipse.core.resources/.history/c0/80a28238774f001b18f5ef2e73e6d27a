@@ -1,0 +1,42 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoComposta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String produto = JOptionPane.showInputDialog("Produto");
+		float qtde = Float.parseFloat(JOptionPane.showInputDialog("qtde"));
+		float valor = Float.parseFloat(JOptionPane.showInputDialog("valor"));
+	
+		float total = (qtde * valor);
+		
+		if (qtde > 20) {
+			
+			System.out.println("Parabens vc ganhou 20 % de desconto. TOTAL :"  + (total + (total*0.012)));
+					
+		}
+			
+		if (qtde > 10 && qtde < 20 ) {
+			
+			System.out.println("Parabens vc ganhou 10 % de desconto. TOTAL :"  + (total + (total*0.010)));
+		
+			
+		if (qtde > 5 && qtde < 9 ) {
+				
+			System.out.println("Parabens vc ganhou 5 % de desconto. TOTAL :"  + (total + (total*0.005)));
+			
+				
+		} else if  {
+			
+			System.out.println("Leve mais de 5 itens para ganhar descontos. TOTAL :"  + total);
+					
+		}
+		
+		}
+	}
+		
+}

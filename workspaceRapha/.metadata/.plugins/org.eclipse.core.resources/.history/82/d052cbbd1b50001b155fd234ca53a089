@@ -1,0 +1,44 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Repeticao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		String email = JOptionPane.showInputDialog("Digite o email").toLowerCase();
+		while (email.contains("@")==false) {
+			email = JOptionPane.showInputDialog("Inválido. Digite o email novamente").toLowerCase();
+						
+		}
+		
+		//laço de repetição
+		
+		System.out.println("Seja bem vindo: " + email.substring(0,email.indexOf("@")));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

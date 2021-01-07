@@ -1,0 +1,55 @@
+package ListaExercicios;
+
+import javax.swing.JOptionPane;
+
+public class lista1_Exerc3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+
+3. Elabore uma aplicação que leia o valor de dois números inteiros e a operação aritmética desejada; 
+calcule, então, a resposta adequada. Utilize os símbolos da tabela a seguir para ler qual a operação 
+aritmética escolhida. 
+
+
+
+		 * 
+		 */
+
+
+		//		String materia = JOptionPane.showInputDialog("Materia");
+
+		short n1 = Short.parseShort(JOptionPane.showInputDialog("Primeiro Numero"));
+		short n2 = Short.parseShort(JOptionPane.showInputDialog("Segundo Numero"));
+		char oper = String.parseSTring(JOptionPane.showInputDialog("Operacao Desejada : + - / ou * ? ").charAt(0));
+		short result;
+
+
+		if  oper.contentEquals("+") {
+
+			result = n1 + n2;
+		} 
+		
+		if oper.contentEquals("-") { 
+
+			result = n1 - n2;
+
+		} 
+		
+		if oper.contentEquals("/") { 
+
+			result = n1 / n2
+
+		}
+		oper.contentEquals("*") { 						
+
+			result = n1 * n2
+		}
+		
+			System.out.println("Resultado: " + n1 + " " + oper + " " + n2 +  " + " + result);
+
+
+		
+	}
+}
